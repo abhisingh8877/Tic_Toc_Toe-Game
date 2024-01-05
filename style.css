@@ -41,7 +41,8 @@ body{
     color:#fff;
     border-radius:1rem;
     border:none;
-    cursor:pointer
+    cursor:pointer;
+    overflow: hidden;
 }
 #new_btn{
     padding:1rem;
@@ -57,7 +58,9 @@ body{
     font-size: 8vmin;
 }
 .msg_container{
+   
     height:20vmin;
+    margin: 20px;
 }
 .hide{
     display: none;
@@ -68,3 +71,47 @@ body{
 .color_0{
     color:#49ce2b
 }
+@media only screen and (max-width: 370px) {
+    .msg_container{
+   
+        height:30vmin;
+        margin: 30px;
+    }
+    #msg {
+      font-size:6vmin;
+      padding: 10px;
+    }
+    #reset_btn{
+        padding:0.7rem;
+        font-size:0.9rem;
+        border-radius:0.9rem;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    #new_btn{
+        padding:0.7rem;
+        font-size:0.9rem;
+        border-radius:0.9rem;
+        overflow: hidden;
+    }
+    .container{
+        background-color: #49ce2b;
+        height:70vh;  
+        
+    }
+    .game{
+        height:70vmin;
+        width:70vmin;
+       background-color: #E43A72;
+        gap:1.2vmin
+    }
+    .box{
+        height: 28vmin;
+        width:22vmin;
+        font-size: 10vmin;
+        
+    }
+    h1{
+        font-size:30px
+    }
+  }

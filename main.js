@@ -26,8 +26,8 @@ boxes.forEach((boxe)=>{
         let iscomplete;
         iscomplete=checkWinner();
         counter++;
-        console.log(iscomplete);
-        console.log(counter);
+  
+        
         if(iscomplete==false && counter===9)
         {
             msg.innerText=`Game Draw`;
