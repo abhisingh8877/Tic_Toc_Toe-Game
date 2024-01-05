@@ -95,14 +95,14 @@ body{
         overflow: hidden;
     }
     .container{
-        background-color: #49ce2b;
+        
         height:70vh;  
         
     }
     .game{
         height:70vmin;
         width:70vmin;
-       background-color: #E43A72;
+       
         gap:1.2vmin
     }
     .box{
